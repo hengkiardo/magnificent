@@ -1,0 +1,85 @@
+/* Template: AvaLanche | Author: eriktailor | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Warm Skin */
+/* -------------------------------- */
+
+
+/* Section Titles */
+.section-title {color: #D76B00;}
+
+/* Logo */
+.logo {background: url('../../img/logo_warm.png') no-repeat 0 50%;}
+
+/* Text Links */
+a:hover, a:focus { color: #D76B00;}
+
+/* Menu item hover */
+#menu a:hover {color: #D76B00;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #D76B00;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #D76B00;}
+.portfolio-item:hover {background: #D76B00;}
+.portfolio-item-title span {color: #D76B00;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #D76B00; }
+.option-set a:hover .filter-title {color: #D76B00;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #D76B00;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #D76B00; color: #D76B00;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #D76B00;}
+.memberProfile {background: #D76B00;}
+.bullet {background: url("../../img/bullet_warm.png");}
+
+/* Our Process icons */
+.process-icon.first  {background: url('../../img/process/process_01_warm.png') no-repeat 50% 0;}
+.process-icon.second {background: url('../../img/process/process_02_warm.png') no-repeat 50% 0;}
+.process-icon.third  {background: url('../../img/process/process_03_warm.png') no-repeat 50% 0;}
+.process-icon.fourth {background: url('../../img/process/process_04_warm.png') no-repeat 50% 0;}
+
+/* Our Process details */
+.processInfo {background: #D76B00;}
+
+/* Service Item */
+.service-item:hover {background: #D76B00;}
+.service-item-title span {color: #D76B00;}
+.service-item:hover .icon {color: #D76B00;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #D76B00;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #D76B00;}
+.blog-article-intro {background: rgba(215,107,0,0.9);}
+
+/* Contact */
+.contact-title {color: #D76B00;}
+.small-button {background: #D76B00;}
+.map-title {color: #D76B00;}
+.office-info.right a {color: #D76B00;}
+.contact-info .icon {color: #D76B00;}
+
+/* Footer */
+#footer {background: #D76B00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

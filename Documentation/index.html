@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>AvaLance HTML Template Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AvaLance - Coming Soon HTML Template Documentation">
+    <meta name="author" content="eriktailor">
+  
+    <!-- loading the css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    
+    <style type="text/css">
+    body {
+      padding-bottom: 40px;
+    }
+    
+    section {padding: 40px 0 0 0;}
+    </style>
+    
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  
+    <!-- Various Icons (Favicon, Touch Icon,... -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+    
+  </head>
+  
+  
+    
+  <body data-spy="scroll" data-target=".navbar" id="top">
+  
+    <!-- ========================= NAVIGATION BAR >> START ========================= -->
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+          <a class="brand" href="#overview">AvaLance</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#markup">Markup</a></li>
+              <li><a href="#styles">Styles</a></li>
+              <li><a href="#javascript">JavaScript</a></li>
+              <li><a href="#php">Images</a></li>
+              <li><a href="#editing">Editing</a></li>              
+              <li><a href="#installation">Installation</a></li>
+              <li><a href="#credits">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ========================= NAVIGATION BAR >> END ========================= -->
+  
+  
+  
+    <!-- ========================= MAIN CONTAINER >> START ========================= -->
+    <div class="container">
+    
+      <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+      <section id="overview">
+      
+        <div class="hero-unit">
+
+          <h1>AvaLance HTML Template Documentation</h1>
+          <p>AvaLance HTML Template is made by <a href="http://themeforest.net/user/stephanus168">eriktailor</a></p>          
+          <hr>
+          <p class="well well-small">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/stephanus168">here</a>. Thanks so much!</p>
+          <div class="row-fluid">
+            <div class="span6 pagination-centered"><a href="mailto:stephanus_06@yahoo.com"><img src="assets/img/email-button.png" alt="Email"></a></div>
+            <div class="span6 pagination-centered"><a href="http://facebook.com/vespercreative"><img src="assets/img/facebook-button.png" alt="Facebook"></a></div>         
+          </div>
+          <br>
+          <div class="row-fluid">
+            <div class="span6 pagination-centered"><a href="http://themeforest.net/user/stephanus168/follow"><img src="assets/img/themeforest-button.png" alt="Themeforest"></a></div>
+            <div class="span6 pagination-centered"><a href="https://twitter.com/vespercreative"><img src="assets/img/twitter-button.png" alt="Twitter"></a></div>  
+          </div>
+        </div>
+        
+        <hr>
+        
+        <div class="row-fluid">
+          <div class="span3">
+            <table width="100%">
+              <tr>
+                <td>Author:</td>
+                <td>eriktailor</td>
+              </tr>
+              <tr>
+                <td>Contact:</td>
+                <td><a href="http://themeforest.net/user/stephanus168">Contact Form at profile page</a></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="span3 offset3">
+            <table width="100%">
+              <tr>
+                <td>Current Version:</td>
+                <td>1.0.0</td>
+              </tr>
+              <tr>
+                <td>Documentation Version</td>
+                <td>1.0.0</td>
+              </tr>
+            </table>
+          </div>
+          <div class="span3">
+            <table width="100%">
+              <tr>
+                <td>Created:</td>
+                <td>2013-07-22</td>
+              </tr>
+              <tr>
+                <td>Modified:</td>
+                <td>2013-07-22</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        
+        <hr>
+        
+      </section>
+      <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+
+      
+      <!-- ========================= SECTION: MARKUP >> START ========================= -->
+      <section id="markup">
+        <div class="page-header">
+          <h1>Markup <small>Markup customization and highlights</small></h1>
+        </div>
+      
+        <div class="alert alert-info"><strong>Heads up!</strong> It is recommended to choose your desired color schemes and layout before making any editing!</div>
+        <p>This template has 3 different home layout and a portfolio details page, it is responsive with additional two different color schemes. Every different section
+		is wrapped within a <code>section</code> element with an unique id, and a 960px wide container with <code>.container</code> for the contents.</p>
+      
+        <hr />
+      
+        <div class="row">
+          <div class="span12">
+            <h3>Head Markup</h3>
+            <p>The <code>head</code> template structure is the same throughout the template. Here is the head structure.</p>
+          </div>
+      
+          <div class="span12"> 
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;head&gt; 
+ 
+	&lt;!-- Basic Page Needs 
+    ================================================== --&gt; 
+	&lt;meta charset="utf-8"&gt; 
+	&lt;title&gt;AvaLance&lt;/title&gt; 
+	&lt;meta name="description" content=""&gt; 
+	&lt;meta name="author" content="eriktailor"&gt; 
+ 
+	&lt;!-- Mobile Specific Metas 
+    ================================================== --&gt; 
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"&gt; 
+ 
+	&lt;!-- CSS 
+	================================================== --&gt; 
+	&lt;link rel="stylesheet" href="css/reset.css"&gt; 
+	&lt;link rel="stylesheet" href="css/skeleton.css"&gt; 
+	&lt;link rel="stylesheet" href="css/layout.css"&gt; 
+	&lt;link rel="stylesheet" href="font/font-awesome.min.css"&gt; 
+	&lt;link rel="stylesheet" href="css/animate.css"&gt; 
+	 
+	&lt;!--[if lt IE 9]&gt; 
+		&lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt; 
+	&lt;![endif]--&gt; 
+ 
+	&lt;!-- Favicons 
+	================================================== --&gt; 
+	&lt;link rel="shortcut icon" href="img/favicon.ico"&gt; 
+	&lt;link rel="apple-touch-icon" href="img/apple-touch-icon.png"&gt; 
+	&lt;link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"&gt; 
+	&lt;link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"&gt; 
+ 
+	&lt;!-- Google Webfonts 
+	================================================== --&gt;	 
+	&lt;link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'&gt; 
+	&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'&gt; 
+ 
+&lt;/head&gt;
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+      
+        <hr />
+
+        <div class="row">
+          <div class="span12">
+            <h3>Body Markup</h3>
+            <p>The <code>body</code> template structure is the same throughout the template. Here is the body structure.</p>
+          </div>
+      
+          <div class="span12"> 
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;body&gt; 
+ 
+&lt;!-- Primary Page Layout 
+================================================== --&gt; 
+
+&lt;!-- Wrapper --&gt; 
+&lt;div id="main-wrapper"&gt;
+	
+	&lt;!-- Header --&gt; 
+	&lt;header id="header"&gt; 
+	 
+		&lt;div class="container"&gt; 
+		 
+			... 
+		 
+		&lt;/div&gt;&lt;!-- end container --&gt; 
+	 
+	&lt;/header&gt;&lt;!-- end header --&gt; 
+ 
+ 
+	&lt;!-- Navigation --&gt;	 
+	&lt;div id="navigation"&gt; 
+	 
+		&lt;div class="container"&gt; 
+		 
+			... 
+ 
+		&lt;/div&gt;&lt;!-- end container --&gt; 
+	 
+	&lt;/div&gt;&lt;!-- end navigation --&gt; 
+	 
+	 
+	&lt;!-- Section --&gt;	 
+	&lt;section id="section"&gt; 
+	 
+		&lt;div class="container"&gt; 
+			 
+			... 
+ 
+		&lt;/div&gt;&lt;!-- end container --&gt; 
+	 
+	&lt;/section&gt;&lt;!-- end portfolio --&gt; 
+	 
+
+	&lt;!-- Footer --&gt;	
+	&lt;footer id="footer"&gt; 
+	 
+		&lt;div class="container"&gt; 
+		 
+			... 
+		 
+		&lt;/div&gt;&lt;!-- end container --&gt; 
+	 
+	&lt;/footer&gt;&lt;!-- end footer --&gt;
+	
+
+&lt;/div&gt;&lt;!-- end wrapper --&gt; 
+
+&lt;!-- End Document
+================================================== --&gt;
+&lt;/body&gt;	
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+
+      
+        <hr />
+
+      </section>
+      <!-- ========================= SECTION: MARKUP >> END ========================= -->
+      
+
+
+      <!-- ========================= SECTION: STYLES >> START ========================= -->
+      <section id="styles">
+        <div class="page-header">
+          <h1>Styles <small>Styles customization and highlights</small></h1>
+        </div>
+      
+        <div class="alert alert-info"> <b>Heads up!</b> I'm using six CSS files in this theme. Two of them: <code>warm.css</code> or <code>cold.css</code> are imported through layout.css</div>
+      
+        <div class="row">
+          <div class="span3">
+            <h3>Stylesheets</h3>
+            <p>They are located in "css" folder. Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file:</p>
+          </div>
+          <div class="span9">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>reset.css</code></td>
+                  <td>Contains the browser reset information</td>
+                </tr>
+                <tr>
+                  <td><code>skeleton.css</code></td>
+                  <td>Contains responsive grid framework for layout</td>
+                </tr>
+                <tr>
+                  <td><code>layout.css</code></td>
+                  <td>The main CSS, contains main template and modules styling.</td>
+                </tr>
+                <tr>
+                  <td><code>animate.css</code></td>
+                  <td>Contains CSS3 animation effects (by Daniel Eden).</td>
+                </tr>
+                <tr>
+                  <td><code>warm.css</code></td>
+                  <td>Contains the warm color skin styling</td>
+                </tr>
+                <tr>
+                  <td><code>cold.css</code></td>
+                  <td>Contains the cold color skin styling</td>
+                </tr>				
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <hr />
+        
+        <div class="row">
+          <div class="span3">
+            <h3>CSS Structure</h3>
+            <p>The Main stylesheet are structured and divided for easier customization. Beside are the table of content for the stylesheet:</p>
+          </div>
+        
+          <div class="span9">
+          
+<!-- Code Block >> Start -->                   
+<pre class="pre-scrollable prettyprint linenums">
+/*----------------------------------------------------------*/ 
+/*	# Table of Contents */
+/*----------------------------------------------------------*/ 
+/*  
+	 1.  Import Skin 
+	 2.  Basics &amp; Typography 
+	 3.  Header 
+	 4.  Navigation 
+	 5.  Portfolio 
+	 6.  About 
+	 7.  Process 
+	 8.  Services 
+	 9.  Blog 
+	10.  Contact 
+	11.  Footer 
+	12.  Portfolio Details 
+	13.  Media Queries 
+	 
+*/ 
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+        
+      </section>
+      <!-- ========================= SECTION: STYLES >> END ========================= -->
+      
+      
+      
+      <!-- ========================= SECTION: JAVASCRIPT >> START ========================= -->
+      <section id="javascript">
+      
+        <div class="page-header">
+          <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+        </div>
+        
+        <div class="row">
+          <div class="span3">
+            <h3>JavaScript Files</h3>
+            <p>There are 8 Javascript files in the download. They are located in "js" folder.</p>
+          </div>
+          <div class="span9">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Tag</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>jquery.backgroundvideo.min.js</code></td>
+                  <td>This script is used to make usuage of the home-video version easier.</td>
+                </tr>
+                <tr>
+                  <td><code>jquery.cycle2.js</code></td>
+                  <td>jQuery Cycle2 plugin is used to create sliders (eg. testimonials slider)</td>
+                </tr>
+                <tr>
+                  <td><code>jquery.textillate.js</code></td>
+                  <td>This plugin is used for the welcome content lettering animation.</td>                  
+                </tr>
+                <tr>
+                  <td><code>jquery.lettering.js</code></td>
+                  <td>Lettering.js is lets us work with letters individually.</td>                  
+                </tr>				
+                <tr>
+                  <td><code>jquery.isotope.js</code></td>
+                  <td>jQuery Isotope.js is used for the dynamic portfolio filtering.</td>                  
+                </tr>					
+                <tr>
+                  <td><code>script.js</code></td>
+                  <td>The main javascript file used in AvaLance, where the functions are defined.</td>                  
+                </tr>	
+                <tr>
+                  <td><code>waypoints.min.js</code></td>
+                  <td>jQuery Waypoints let us execute a function whenever you scroll to an element.</td>                  
+                </tr>
+                <tr>
+                  <td><code>waypoints-sticky.min.js</code></td>
+                  <td>jQuery Waypoints Sticky plugin used to create the sticky navigation bar.</td>                  
+                </tr>					
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <hr />        
+      
+        
+      </section>
+      <!-- ========================= SECTION: JAVASCRIPT >> END ========================= -->
+	  
+	  
+      <!-- ========================= SECTION: IMAGES >> START ========================= -->
+      <section id="javascript">
+      
+        <div class="page-header">
+          <h1>Images<small> Structure of the media folders</small></h1>
+        </div>
+        
+        <div class="row">
+          <div class="span3">
+            <h3>Images </h3>
+            <p>All of the images are located in the "img" folder.</p>
+          </div>
+          <div class="span9">
+            <table class="table table-bordered table-striped imgsources">
+              <thead>
+                <tr>
+                  <th>Folder</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>img/</code></td>
+                  <td>The root folder contains default images and the site favicons.</td>
+                </tr>
+                <tr>
+                  <td><code>img/blog</code></td>
+                  <td>Blog folder contains the blog thumbnails.</td>
+                </tr>
+                <tr>
+                  <td><code>img/patterns</code></td>
+                  <td>This folder contains the header background overlay patterns</td>                  
+                </tr>
+                <tr>
+                  <td><code>img/portfolio</code></td>
+                  <td>Contains the portfolio item thumbnails.</td>                  
+                </tr>				
+                <tr>
+                  <td><code>img/portfolio-details</code></td>
+                  <td>Contains every images used in the portfolio details page.</td>                  
+                </tr>	
+                <tr>
+                  <td><code>img/process</code></td>
+                  <td>Process folder contains the "Our Process" section's icons.</td>                  
+                </tr>	
+                <tr>
+                  <td><code>img/quotes</code></td>
+                  <td>Contains the testimonial slider's avatars.</td>                  
+                </tr>
+                <tr>
+                  <td><code>img/slider</code></td>
+                  <td>Contains the sliding header background images for the home-slider version.</td>                  
+                </tr>
+                <tr>
+                  <td><code>img/team</code></td>
+                  <td>Team folder contains the images for the "Our Team" section.</td>                  
+                </tr>				
+              </tbody>
+            </table>
+          </div>
+		  
+
+        
+        <hr />        
+      
+        
+      </section>
+      <!-- ========================= SECTION: IMAGES >> END ========================= -->
+
+
+      <!-- ========================= SECTION: EDITING >> START ========================= -->
+      <section id="editing">
+
+        <div class="page-header">
+          <h1>Template Editing <small>Customizing template settings</small></h1>
+        </div>
+
+        <div class="alert alert-info"><strong>Heads up!</strong> To edit files in this template you need a text editor software installed in your computer.</div>
+
+        <p>Below are some of popular text editor software out there:</p>
+
+        <ol>
+          <li><a href="http://www.sublimetext.com/">Sublime Text</a> (Cross Platform)</li>
+          <li><a href="http://notepad-plus-plus.org/">Notepad++</a> (Windows)</li>
+          <li><a href="http://macromates.com/">TextMate</a> (Mac)</li>
+        </ol>
+
+        <hr />
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Edit Colors</h3>
+              <p>Open the css color skin file you'll want to edit (e.g. <code>cold.css</code>), and then do the following</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+/* Section Titles */
+.section-title {color: #yourColor;}
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+      
+        <hr />
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Change Icons</h3>
+              <p>Choose the wished one from the <a href="http://fortawesome.github.io/Font-Awesome/icons/">icon reference</a>, then simply replace the sample icon's name (e.g. <code>icon-twitter</code>) in it's class to the chosen one.</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;ul class="social-networks"&gt; 
+	&lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon icon-twitter"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon icon-facebook"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;					 
+&lt;/ul&gt;
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+      
+        <hr />
+		
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Change Portfolio Filters</h3>
+              <p>Locate the <code>filters</code> div in the HTML file, then change the attributes to your desired filters in the <code>data-option-value="..."</code> element.</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;li&gt;&lt;a href="#filter" data-option-value=".graphicdesign"&gt; 
+	&lt;i class="icon icon-pencil"&gt;&lt;/i&gt;&lt;span class="filter-title"&gt;Graphic Design&lt;/span&gt; 
+&lt;/a&gt;&lt;/li&gt;
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+      
+        <hr />
+		
+        <div class="row">
+          <div class="span12">
+              <h3>How To Apply Portfolio Filters</h3>
+              <p>Locate the <code>portfolio-wrapper</code> div, then add the specific filter's class to each <code>&lt;a class="..."&gt;</code> element. Note: You can add several filters to a portfolio item.</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;!-- Portfolio Item --&gt; 
+&lt;a href="portfolio-details.html" class="graphicdesign"&gt;				 
+	&lt;figure class="one-third column portfolio-item"&gt; 
+		&lt;div class="picture"&gt;&lt;img src="img/portfolio/portfolio_01s.jpg" alt=""/&gt;&lt;/div&gt; 
+		&lt;figcaption class="portfolio-item-title"&gt;&lt;span&gt;+&lt;/span&gt;Lorem ipsum dolor sit amet&lt;/figcaption&gt;	 
+	&lt;/figure&gt; 
+&lt;/a&gt;
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+      
+        <hr />	
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Use Video Background</h3>
+              <p>To use the home-video background version, you have to convert your videos to the HTML5 formats <code>.ogv, .webm, .mp4</code> then upload them in the "video" folder, with the filename "bg_video". <a href="http://www.mirovideoconverter.com/">Miro Converter</a> could be a good start to convert your videos. Don't forget to create a fallback image for the video <code>video_bg.jpg</code>, which will be shown on small devices.</p>
+          </div>
+      
+          <div class="span12">
+                
+
+          </div>
+        </div>
+      
+        <hr />	
+
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Apply Background Patterns</h3>
+              <p>At the default home version, locate the div with the id <code>pattern-overlay</code> and change it's class to the desired pattern version.</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;div id="pattern-overlay" class="pattern-02"&gt;
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+		
+        <hr />	
+
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Use The Maps</h3>
+              <p>Open the <code>script.js</code> file, and locate <code>myMap</code> on line 326, and change the coordinates to your own ones. You can get your coordinates <a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm" target="_blank">here</a>.</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+myMap(40.81992, -73.90683, 'map1');
+myMap(40.80287, -73.95361, 'map2');
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+		
+        <hr />	       
+
+
+        <div class="row">
+          <div class="span12">
+              <h3>How To Use Tablet Slider</h3>
+              <p>To change or add images to the tablet slider in the portfolio details page, just upload your images in the "img/portfolio-details" folder, and link them.</p>
+          </div>
+      
+          <div class="span12">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&lt;ul id="tablet-slider"&gt; 
+	&lt;li class="slide"&gt; 
+		&lt;img src="img/portfolio-details/tablet_slide_01.jpg" alt="" /&gt;				 
+	&lt;/li&gt; 
+	&lt;li class="slide"&gt; 
+		&lt;img src="img/portfolio-details/tablet_slide_02.jpg" alt="" /&gt;		 
+	&lt;/li&gt;	 
+	&lt;li class="slide"&gt; 
+		&lt;img src="img/portfolio-details/tablet_slide_03.jpg" alt="" /&gt;					 
+	&lt;/li&gt;						 
+&lt;/ul&gt;	
+</pre>
+<!-- Code Block >> End -->                   
+
+          </div>
+        </div>
+		
+        <hr />	       
+
+
+
+
+
+		
+
+      </section>
+      <!-- ========================= SECTION: EDITING >> END ========================= -->
+
+      
+      
+      <!-- ========================= SECTION: INSTALLATION >> START ========================= -->
+      <section id="installation">
+        <div class="page-header">
+          <h1>Installation <small>How to Install the Template</small></h1>
+        </div>
+        
+        <div class="row">
+          <div class="span3">
+            <h3>Install Theme</h3>
+            <p>Here's a brief information about how to install Omnibiz from scratch</p>
+          </div>
+  
+          <div class="span9">
+            <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1.1) Organize Your Files </a> </div>
+                <div id="collapseOne" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>Pick your color scheme and layout first, and the extract zip file and then upload the files to your online host. Remember, you have to rename the chosen home layout to index.html when you uploaded it.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 1.2) Customize the settings</a> </div>
+                <div id="collapseTwo" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <p>Customize the template to your liking according to the instructions above. Feel free to contact me if you have any further questions.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"> 1.3) Refresh your browser.</a> </div>
+                <div id="collapseThree" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <p>In order to see whether the editing has been done or not, you need to refresh your browser. If you don't see any changes then the browser's <a href="http://www.google.co.id/search?q=clear+browser+cache">cache need to be cleared</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+      </section>
+      <!-- ========================= SECTION: INSTALLATION >> END ========================= -->
+      
+      
+
+      <!-- ========================= SECTION: CREDITS >> START ========================= -->
+      <section id="credits">
+
+        <div class="page-header">
+          <h1>Credits <small>Scripts &amp; Graphic Source Files</small></h1>
+        </div>
+
+        <p>AvaLance template used these scripts &amp; graphic files:</p>
+
+        <h3>JavaScript</h3>
+        <ol>
+          <li><a href="http://jquery.com/">jQuery</a></li>
+          <li><a href="https://github.com/Victa/HTML5-Background-Video">jQuery Background Video</a></li> 
+          <li><a href="http://jquery.malsup.com/cycle2/">jQuery Cycle2</a></li>
+          <li><a href="https://github.com/desandro/isotope">jQuery Isotope</a></li>
+          <li><a href="https://github.com/jschr/textillate">jQuery Textillate</a></li>
+          <li><a href="https://github.com/davatron5000/Lettering.js">jQuery Lettering</a></li>		  
+          <li><a href="https://github.com/imakewebthings/jquery-waypoints">jQuery Waypoints</a></li>
+        </ol>
+        <h3>CSS</h3>
+        <ol>
+          <li><a href="http://www.getskeleton.com/">Skeleton</a></li>
+          <li><a href="https://github.com/daneden/animate.css">Animate</a></li>          
+        </ol>
+        <h3>Fonts</h3>
+        <ol>
+          <li><a href="http://www.google.com/fonts/">Google Webfonts</a></li>
+          <li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>          
+        </ol>		
+        <h3>Images</h3>
+        <ol>
+          <li><a href="http://picons.me/download-social.php">Shutterstock</a></li>
+          <li><a href="http://search.creativecommons.org/">CC Search</a></li>		  
+        </ol>
+       
+      </section>   
+     
+      <hr />
+  
+      <div class="goodbye">
+        <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+      </div>
+    
+      <hr />
+    
+      <footer>
+        <p>&copy; eriktailor 2013</p>
+      </footer>
+      
+    </div>
+    <!-- ========================= MAIN CONTAINER >> END ========================= -->
+        
+
+    <!-- loading javascripts -->
+    <script src="assets/js/jquery.js"></script> 
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    
+    <!-- init javascripts -->
+    <script src="assets/js/init.js"></script>
+     
+  </body>
+  
+</html>
